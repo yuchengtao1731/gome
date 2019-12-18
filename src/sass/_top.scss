@@ -1,0 +1,150 @@
+@import "iconfont";
+#top{
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+    background: #f8f8f8;
+    height: 31px;
+    color: #5e5e5e;
+}
+
+#top .top-main{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+
+#top .top-main li{
+    float: left;
+}
+#top .top-main ul .gome-member p{
+    font-weight: 400;
+    display: block;
+    padding: 0 20px 0 10px;
+    height: 30px;
+    width: 85.31px;
+    //position: relative;
+    color: #5e5e5e;
+    line-height: 31px;
+    position: relative;
+   
+}
+
+#top .top-main ul .gome-member a{
+    color: #888;
+}
+
+#top .top-main ul .gome-member a:hover{
+    color: #f5004b;
+}
+
+#top .top-main ul .gome-member p:hover  span{
+    background: url(../img/ui.png) no-repeat -55px -433px;
+}
+
+#top .top-main ul .gome-member p span{
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: url(../img/ui.png) no-repeat -62px -433px;
+    width: 7px;
+    height: 4px;
+    display: block;
+}
+
+#top .top-main ul .gome-login a{
+    margin-right: 10px;
+    line-height: 30px;
+    color: #888;
+}
+
+#top .top-main ul .gome-login a:hover{
+    color: #f5004b;
+}
+
+#top .top-main ul .gome-login a:last-child{
+    color: #f5004b;
+}
+
+#top .top-main ul .gome-login a i{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    background:url(../img/ui.png) no-repeat -145px -1496px;
+    margin-left: 1px;
+    margin-top: -4px;
+    
+}
+
+#top .top-main .top-top-right{
+    float: right;
+}
+#top .top-main .top-top-right li{
+    float: left;
+    position: relative;
+    font: 400  Arial,"Microsoft YaHei";
+}
+#top .top-main .top-top-right li a{
+    margin-right: 10px;
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    color:#888 ;
+}
+#top .top-main .top-top-right li a:hover{
+    color: #f5004b;
+}
+
+#top .top-main .top-top-right i{
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    background: url(../img/ui.png) no-repeat -62px -433px;
+    width: 7px;
+    height: 4px;
+}
+
+#top .top-main .top-top-right b{
+    font-weight: 400;
+    display: block;
+    padding: 0 10px 0 10px;
+    height: 30px;
+    position: relative;
+    color: #888;
+    
+}
+#top .top-main .top-top-right  .top-service em{
+    font-family:iconfont;
+    font-size: 17px;
+    color: #dd00a7;
+    background: 0 0;
+    line-height: 30px;
+    height: 30px;
+    top: 0;
+    position: absolute;
+    left: -8px;
+    width: 18px;
+    margin-right: 6px;
+}
+#top .top-main .top-top-right  .top-service{
+    padding-left: 20px;
+}
+
+
+
+#top .top-main .top-top-right .top-phone em{
+    font-family:iconfont;
+    font-size: 17px;
+    color: #dd00a7;
+    background: 0 0;
+    line-height: 30px;
+    height: 30px;
+    top: 0;
+    position: absolute;
+    left: -8px;
+    width: 18px;
+    margin-right: 6px;
+}
+#top .top-main .top-top-right  .top-phone{
+    padding-left: 20px;
+}

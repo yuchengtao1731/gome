@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="shortcut icon" href="font/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/registry.css">
+    <script src="script/usemodule.js" type="module"></script>
+</head>
+
+<body id="registry">
+    <div id="head">
+        <div class="headmain">
+            <div class="headleft">
+                <a href="https://www.gome.com.cn/"></a>
+            </div>
+            <div class="headright">
+                <p class="login-title">我已经注册，现在就<a href="login.html">登录</a></p>
+            </div>
+        </div>
+    </div>
+    <main>
+        <form action="http://localhost/erjieduan/gome/php/form.php"  method="post">
+            <p>
+                <label for="">用户名:</label><input type="text" name="username" id="" value="4到16位，字母、数字、下划线均可"><span></span>
+            </p>
+            <p>
+                <label for="">邮箱:</label><input type="text" name="email" id="" value="请输入邮箱"><span></span>
+            </p>
+            <p>
+                <label for="">设置密码:</label><input type="text" name="" id="" value="6-16位大小写英文字母、数字或字符组成"><span></span>
+            </p>
+            <div>安全程度: <section>高</section>
+                <section>中</section>
+                <section>低</section>
+            </div>
+            <p class="password">
+                <label for="">确认密码:</label><input type="text" name="password" id="" value="请再次输入密码"><span></span>
+            </p>
+            <p>
+                <label for="">手机号码:</label><input type="text" name="tel" id="" value="请输入手机号码"><span></span>
+            </p>
+            <p>
+                <label for="">图形验证码:</label><input type="text" name="" id="" value="请输入验证码"><span></span>
+            </p>
+            <article></article>
+            
+            <input type="submit" name="submit" id="" value="同意协议并注册" class="zhuce">       
+        </form>
+    </main>
+</body>
+
+</html>

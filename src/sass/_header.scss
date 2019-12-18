@@ -1,0 +1,126 @@
+header{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .logo{
+    float: left;
+    margin: 18px 10px 0 0;
+}
+
+ h1{
+    text-indent: -999px;
+}
+
+header .logo a{
+    display: block;
+    width: 125px;
+    height: 56px;
+    background: url(http://css.gomein.net.cn/gmpro/1.0.0/public/1.0.0/css/i/logo.png) 0 0 no-repeat;
+}
+
+
+header .search{
+    position: absolute;
+    width: 500px;
+    top: 32px;
+    left: 385px;
+    height: 52px;
+ 
+}
+
+header .search .searchtop{
+    border: 1px solid #dd00a7;
+    position: relative;
+    font-size: 14px;
+    height: 30px;
+    background: #fff;
+}
+
+header .search .searchbottom{
+    margin: 6px 0 0;
+    color: #A5A5A5;
+    line-height: 14px;
+    height: 14px;
+    font-size: 12px;
+}
+header .search .searchbottom a{
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 14px;
+    color: #A5A5A5;
+    font-family: 'microsoft yahei';
+}
+
+header .search .searchbottom a.highlight, header .search .searchbottom a:hover {
+    color: #f5004b;
+}
+
+header .mycart{
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 142px;
+    height: 46.53px;
+    padding: 0 36px;
+    a{
+        
+        display: inline-block;
+        height: 46.53px;
+        line-height: 46.53px;
+        position: relative;
+        em{
+            position: absolute;
+            width: 27px;
+            height: 20px;
+            background: url(../img/ui.png) -100px -701px;
+            top: 14px;
+            left: -31px;
+        }
+        b{
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 4px dashed transparent;
+            border-color: #5E5E5E transparent transparent;
+            border-bottom: 0;
+            border-top-style: solid;
+            top: 23px;
+            left: 73px;
+        }
+    }
+}
+
+header .mycart a  em .shopnum{
+    position: absolute;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    top: -18px;
+    width: 14px;
+    text-align: center;
+    left: 15px;
+    background-color: #A5A5A5;
+    color: #FFF;
+    font-weight: 700;
+}
+
+header .mycart a  em i{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-color: transparent transparent transparent #A5A5A5;
+    border-right: 0;
+    border-left-style: solid;
+    overflow: hidden;
+    bottom: -4px;
+    left: 21px;
+    top: -4px;
+}
+header .mycart a:hover{
+    text-decoration: underline;
+        color: #f5004b;
+}
