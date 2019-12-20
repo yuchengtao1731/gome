@@ -1,0 +1,1 @@
+"use strict";var _registry=require("./registry.js"),_login=require("./login.js");document.getElementById("registry")&&new _registry.Verify,document.getElementById("login")&&new _login.Logining;
