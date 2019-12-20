@@ -1,0 +1,225 @@
+header {
+  position: relative;
+  height: 120px;
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header .headerleft {
+  width: 300px;
+  height: 62px;
+  margin-top: 31px;
+}
+header .headerleft a {
+  display: block;
+  background: url(https://misc.gomein.net.cn/images/regfront/register/loginlogo.png) no-repeat;
+  width: 300px;
+  height: 62px;
+}
+header .headerright a {
+  display: block;
+  height: 16px;
+  color: #888;
+  position: absolute;
+  right: 1px;
+  top: 99px;
+}
+header .headerright a s {
+  display: block;
+  margin-right: 8px;
+  width: 15px;
+  height: 16px;
+  background: url(../img/login-bg-common.png) 0 -257px no-repeat;
+  position: absolute;
+  left: -18px;
+  top: -3px;
+}
+
+#safeTipDiv {
+  background-color: #fff4e3;
+  border-top: 1px solid #fee6bc;
+  width: 100%;
+  height: 30px;
+}
+#safeTipDiv .safeTip {
+  width: 828px;
+  height: 29px;
+  padding-left: 10px;
+  margin: 0 auto;
+  background-color: #fff4e3;
+  color: #ff7f23;
+  font: 400 12px/29px "Microsoft Yahei";
+}
+#safeTipDiv .safeTip a {
+  color: #2875cc;
+}
+#safeTipDiv .safeTip em {
+  background: url(../img/login-bg-common.png) -28px 0 no-repeat;
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 8px 5px 0 0;
+}
+
+#safeTipDiv a:hover {
+  text-decoration: underline;
+}
+
+#mainbg {
+  width: 100%;
+  height: 480px;
+  background: #fff1e8;
+}
+#mainbg .main {
+  width: 1200px;
+  height: 480px;
+  margin: 0 auto;
+  background: url(http://gfs10.gomein.net.cn/T1ruLjBvd_1RCvBVdK.jpg) top center;
+}
+#mainbg .main .mainright {
+  width: 350px;
+  float: right;
+  margin-top: 24px;
+  margin-right: 105px;
+  position: relative;
+  background: #fff;
+  height: 409px;
+}
+
+#mainbg .main .mainright .maintop {
+  border-bottom: 1px solid #f4f4f4;
+  font: 500 18px "Microsoft Yahei";
+  text-align: center;
+  color: #5e5e5e;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+}
+
+#mainbg .main .mainright .mainmiddle {
+  width: 350px;
+  height: 307px;
+  padding: 30px 21px 0 29px;
+  position: relative;
+}
+#mainbg .main .mainright .mainmiddle .hintp {
+  width: 290px;
+  height: 21px;
+  line-height: 21px;
+  background: #fee;
+  color: #e3111e;
+  display: none;
+  margin-top: -21px;
+  margin-bottom: 4px;
+  padding-left: 39px;
+}
+#mainbg .main .mainright .mainmiddle .hintspan {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(../img/spr-icon.png) -41px -54px no-repeat;
+  position: absolute;
+  top: 13px;
+  left: 50px;
+  display: none;
+}
+#mainbg .main .mainright .mainmiddle .middlet {
+  width: 290px;
+  height: 42px;
+  border: 1px solid #CCC;
+  margin-bottom: 17px;
+  padding: 9px 18px;
+  position: relative;
+}
+#mainbg .main .mainright .mainmiddle .middlet input {
+  width: 250px;
+  height: 22px;
+  border: 0;
+  color: #333;
+  font-size: 14px;
+}
+#mainbg .main .mainright .mainmiddle .middlet span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(../img/spr-icon.png) -20px -90px no-repeat;
+  position: absolute;
+  top: 15px;
+  left: 267px;
+  display: none;
+}
+#mainbg .main .mainright .mainmiddle .middlet span:hover {
+  background: url(../img/spr-icon.png) -36px -90px no-repeat;
+  cursor: pointer;
+}
+#mainbg .main .mainright .mainmiddle .checkp {
+  margin-top: 25px;
+  width: 70px;
+  height: 20px;
+}
+#mainbg .main .mainright .mainmiddle .regbox {
+  display: block;
+  position: absolute;
+  top: 163px;
+  right: 32px;
+}
+#mainbg .main .mainright .mainmiddle .regbox a {
+  color: #2875cc;
+}
+#mainbg .main .mainright .mainmiddle .regbox a:hover {
+  text-decoration: underline;
+}
+#mainbg .main .mainright .mainmiddle .buttonlogin {
+  width: 290px;
+  height: 42px;
+  display: block;
+  background: #ff5757;
+  font: 500 18px/41px "Microsoft Yahei";
+  color: #fff;
+  text-align: center;
+  border: 0 none;
+  outline: 0;
+  word-spacing: 3px;
+  cursor: pointer;
+  position: absolute;
+  top: 220px;
+  left: 29px;
+}
+#mainbg .main .mainright .mainmiddle .buttonlogin:hover {
+  background: #f64949;
+}
+
+#mainbg .main .mainright .mainbottom {
+  width: 350px;
+  height: 52px;
+  background-color: #fcfcfc;
+  padding: 14px 10px;
+  color: #a5a5a5;
+  position: relative;
+  border: 1px solid #f0f0f0;
+}
+#mainbg .main .mainright .mainbottom a {
+  border-right: 1px solid #e6e6e6;
+  float: left;
+  white-space: nowrap;
+  color: #5e5e5e;
+  padding: 0 4px;
+  margin: 6px 0;
+}
+
+#loginbottom {
+  width: 100%;
+  height: 220px;
+  position: relative;
+}
+#loginbottom .loginbottommain {
+  width: 990px;
+  height: 180px;
+  background: url(../img/loginbottom.png) no-repeat;
+  position: absolute;
+  top: 35px;
+  left: 210px;
+}
+
+/*# sourceMappingURL=login.css.map */

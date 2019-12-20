@@ -9,14 +9,15 @@
     <link rel="shortcut icon" href="font/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/registry.css">
-    <script src="script/usemodule.js" type="module"></script>
+    <!-- <script src="script/usemodule.js" type="module"></script> -->
+    <script src="js/main.js" async="true"></script>
 </head>
 
 <body id="registry">
     <div id="head">
         <div class="headmain">
             <div class="headleft">
-                <a href="https://www.gome.com.cn/"></a>
+                <a href="index.html"></a>
             </div>
             <div class="headright">
                 <p class="login-title">我已经注册，现在就<a href="login.html">登录</a></p>
@@ -24,7 +25,7 @@
         </div>
     </div>
     <main>
-        <form action="http://localhost/erjieduan/gome/php/form.php"  method="post">
+        <form action="http://10.31.161.151/erjieduan/gome/php/registry.php"  method="post">
             <p>
                 <label for="">用户名:</label><input type="text" name="username" id="" value="4到16位，字母、数字、下划线均可"><span></span>
             </p>

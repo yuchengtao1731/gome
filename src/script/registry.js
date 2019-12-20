@@ -1,4 +1,4 @@
-import { $, ajax, jstool } from "./toolmodule.js";
+import { $,ajax, jstool } from "./toolmodule.js";
 
 
 function Verify() {
@@ -30,9 +30,24 @@ function Verify() {
                 oSpan[0].innerHTML = '√';
                 oSpan[0].style.color = 'green'
                 flagName = true;
+                ajax({
+                    type:'post',
+                    url:'http://10.31.161.151/erjieduan/gome/php/registry.php',
+                    data:{
+                        username:this.value
+                    }
+                }).then(function(data){
+                    console.log(data);
+                    if(data){
+                        oSpan[0].innerHTML = '用户名已存在';
+                        oSpan[0].style.color = 'red';
+                        flagName = false;
+                    }
+                   
+                })
             } else {
                 oSpan[0].innerHTML = '用户名格式有误';
-                oSpan[0].style.color = 'red'
+                oSpan[0].style.color = 'red';
                 flagName = false;
             }
 

@@ -1,10 +1,6 @@
 <?php
-
-//1.新建数据库+表
-
-//2.连接数据库
+//连接数据库
 header('content-type:text/html;charset=utf-8');
-//1.连接数据库
 define('HOST','localhost');
 define('USERNAME','root');
 define('PASSWORD','');

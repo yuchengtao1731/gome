@@ -52,11 +52,11 @@ gulp.task('compilesass', function () {
 });
 
 //4.压缩js文件--如果将es6的代码转换成es5,无需此模块
-// gulp.task('uglifyjs', function () {
-//     return gulp.src('src/script/*.js')
-//         .pipe(js())
-//         .pipe(gulp.dest('dist/script/'));
-// });
+gulp.task('uglifyjs', function () {
+    return gulp.src('src/script/*.js')
+        .pipe(js())
+        .pipe(gulp.dest('dist/script/'));
+});
 
 
 //5.转码，压缩的合并实现
